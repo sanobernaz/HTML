@@ -1,0 +1,93 @@
+/* kommentar för */
+/* ta bort extra utrymme i body*/
+body{
+    margin:0;
+
+}
+ /* footer i bottom, always*/
+ main{
+    flex: 1;
+
+ }
+
+ body{
+    display: flex;
+    
+    max-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana;
+ }
+ /* Footer i bottom end*/
+ #my-id{
+    color:blue;
+ }
+ .my-class{
+    color:red;
+
+ }
+ .two-classes{
+    color: blueviolet;
+
+ }
+ header{
+    background-color: blue;
+    padding: 20px;
+ }
+ header h1{
+     font-family: Verdana;
+     font-size: 45px;
+     margin: 0;
+     margin left: 10px ;
+ header h2{
+    font-family: verdana;
+    font-size: 45px;
+    margin: 0;
+    margin: left;
+ }
+ }
+ header nav {
+    margin-top: 2px;
+ }
+ header nav a {
+    display: inline-block;
+    padding: 0 15px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ header nav a:hover{
+    color: white;
+ }
+ header nav a.active{
+    color: #ffffff;
+ }
+ h1, h2{
+    color:rgb(0,o,o);
+    font-family: verdana;
+    line-height: 130%;
+    margin: o auto;
+    max-width: 650px;
+ }
+ main{
+    padding: 20px;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+ }
+ footer{
+    background-color:red ;
+    padding: 20px;
+    color: black;
+    font-family: verdana ;
+    font-size: 12px;
+
+ }
+ footer p{
+    margin:5px;
+    text-align: center;
+ }
+ .my-form{
+    width: 100%s;
+ }
