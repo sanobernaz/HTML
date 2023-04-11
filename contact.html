@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my second web</title>
     <link rel="stylesheet" href="style.css">
+    <script type = "text/javascript">
+        function myFunction() {
+          var fname= document.getElementById("name").value;
+          alert('hello ' + fname);
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -30,7 +36,7 @@
             <label for="message">Message:</label><br>
             <textarea class="my-form" id="message" name="message"placeholder="Message" required></textarea>
 
-            <input type="submit" value="send">
+            <input type="submit" value="send" onclick="myFunction()">
 
 
 
